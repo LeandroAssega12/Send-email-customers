@@ -1,0 +1,34 @@
+# Excluir pasta Processados
+Add_Sheet_Interface/Processados/
+Add_Sheet_Interface_v2/Processados/
+
+# Arquivos de backup
+*.backup
+*.bak
+*_backup*
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de configuração local
+*.env
+*.local
+
+# Arquivos de dados processados
+*.xls
+*.xlsx
+*.csv
+*.txt
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
