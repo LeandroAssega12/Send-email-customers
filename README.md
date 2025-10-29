@@ -22,18 +22,12 @@ Automated system for downloading, organizing, and sending emails with liquidatio
 
 ## 🛠️ Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/LeandroAssega12/Send-email-customers.git
-cd Send-email-customers
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment Variables
+### 2. Configure Environment Variables
 Create a `.env` file in the `config/` folder:
 ```env
 # Oracle Database Configuration
@@ -150,25 +144,11 @@ Check logs in the `Logs/` folder for detailed information about errors and proce
 - `bcrypt==4.3.0`: Encryption
 - `cryptography==44.0.2`: Advanced encryption
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 👥 Author
 
 **Leandro Assega**
 - GitHub: [@LeandroAssega12](https://github.com/LeandroAssega12)
-
-## 📞 Support
-
-For support and questions, please open an issue in the GitHub repository.
 
 ## 🔄 Changelog
 
