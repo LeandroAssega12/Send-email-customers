@@ -20,7 +20,7 @@ def send_emails(franchise):
         settings_df = xls.parse("Settings", header=None)
         extra_cc = str(settings_df.iloc[1, 0]) if pd.notna(settings_df.iloc[1, 0]) else ""
         
-        message_cell = settings_df.iloc[1, 1]  #B1
+        message_cell = settings_df.iloc[1, 3]  #D1
         body_html = str(message_cell).replace('\r\n', '<br>').replace('\n', '<br>')
         for _, row in df.iterrows():
             #subject = str(row["Subject"])
