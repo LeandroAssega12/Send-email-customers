@@ -19,7 +19,7 @@ def main():
         generate_liquidation_list(franchise, date_from, date_to)
         download_data(franchise)
     
-    organize_files_by_company(xls_path, download_path, franchise)
+    #organize_files_by_company(xls_path, download_path, franchise)
     send_emails(franchise)
     
 if __name__ == "__main__":

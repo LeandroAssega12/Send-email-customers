@@ -7,7 +7,7 @@ Add_Sheet_Interface_v2/Processados/
 *.bak
 *_backup*
 
-# Arquivos temporários
+# Arquivos temporï¿½rios
 *.tmp
 *.temp
 
@@ -19,7 +19,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Arquivos de configuração local
+# Arquivos de configuraï¿½ï¿½o local
 *.env
 *.local
 
@@ -32,3 +32,6 @@ __pycache__/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+
+#Arquivos compactados
+*.zip
